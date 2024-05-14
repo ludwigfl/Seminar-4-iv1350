@@ -179,3 +179,53 @@ Database for the inventory system cannot be reached
 se.kth.iv1350.module4.integration.InventorySystem.getFakeItem(InventorySystem.java:40)
 End of log
 
+Item error - 2024-05-14T10:50:22.364120800
+Incorrect identifier used (888)
+se.kth.iv1350.module4.integration.InventorySystem.getFakeItem(InventorySystem.java:43)
+End of log
+
+Database error - 2024-05-14T10:50:22.371637400
+Database for the inventory system cannot be reached
+se.kth.iv1350.module4.integration.InventorySystem.getFakeItem(InventorySystem.java:40)
+End of log
+
+Item error - 2024-05-14T10:50:22.429608
+Incorrect identifier used (888)
+se.kth.iv1350.module4.integration.InventorySystem.getFakeItem(InventorySystem.java:43)
+End of log
+
+Database error - 2024-05-14T10:50:22.430608300
+Database for the inventory system cannot be reached
+se.kth.iv1350.module4.integration.InventorySystem.getFakeItem(InventorySystem.java:40)
+End of log
+
+Item error - 2024-05-14T11:00:58.084350100
+Incorrect identifier used (888)
+se.kth.iv1350.module4.integration.InventorySystem.getFakeItem(InventorySystem.java:43)
+End of log
+
+Database error - 2024-05-14T11:00:58.098398
+Database for the inventory system cannot be reached
+se.kth.iv1350.module4.integration.InventorySystem.getFakeItem(InventorySystem.java:40)
+End of log
+
+Item error - 2024-05-14T11:01:14.249031200
+Incorrect identifier used (888)
+se.kth.iv1350.module4.integration.InventorySystem.getFakeItem(InventorySystem.java:43)
+End of log
+
+Database error - 2024-05-14T11:01:14.262947400
+Database for the inventory system cannot be reached
+se.kth.iv1350.module4.integration.InventorySystem.getFakeItem(InventorySystem.java:40)
+End of log
+
+Item error - 2024-05-14T11:01:14.362696900
+Incorrect identifier used (888)
+se.kth.iv1350.module4.integration.InventorySystem.getFakeItem(InventorySystem.java:43)
+End of log
+
+Database error - 2024-05-14T11:01:14.363697300
+Database for the inventory system cannot be reached
+se.kth.iv1350.module4.integration.InventorySystem.getFakeItem(InventorySystem.java:40)
+End of log
+
