@@ -10,6 +10,7 @@ import se.kth.iv1350.module4.model.Item;
 import se.kth.iv1350.module4.model.ReceiptPrinter;
 import se.kth.iv1350.module4.model.SaleDTO;
 import se.kth.iv1350.module4.integration.ItemNotFoundException;
+import se.kth.iv1350.module4.model.Observer;
 
 
 /**
@@ -46,9 +47,13 @@ public class Controller {
     
     /**
      * Creates sale object
+     * @param totRevView the observer for TotalRevenueView 
+     * @param totRevOutput the observer for TotalrevenueOutput
      */
-   public void startSale(){
+   public void startSale(Observer totRevView, Observer totRevOutput){
        sale = new Sale();
+       sale.addObserver(totRevView);
+       sale.addObserver(totRevOutput);
    }
    
    /**
@@ -84,6 +89,7 @@ public class Controller {
         sale.createSaleDTO(payment);
         sendSaleInformation();
         handleReceipt(payment);
+        sale.endSale();
         
         return sale.getSaleInfo();
     }

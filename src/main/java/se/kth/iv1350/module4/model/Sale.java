@@ -2,6 +2,7 @@ package se.kth.iv1350.module4.model;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.ArrayList;
 
 
 /**
@@ -10,6 +11,7 @@ import java.time.LocalTime;
  */
 public class Sale {
     public ItemList itemList = new ItemList();
+    private ArrayList<Observer> saleObservers = new ArrayList<>();
     private LocalTime saleTime;
     private LocalDate saleDate;
     private Receipt receipt;
@@ -27,6 +29,22 @@ public class Sale {
       receipt = new Receipt(saleTime, saleDate);
     }
     
+    /**
+     * adds observer to the list of observers
+     * @param observer the observer that is to be added to the list
+     */
+    public void addObserver(Observer observer){
+        saleObservers.add(observer);
+    }
+    
+    /**
+     * Go through all observers and update the sum of cost 
+     */
+    private void alertObserver(){
+        for(Observer observer : saleObservers){
+            observer.updateSum(getTotalWithVat());
+        }
+    }
      /**
      * Adds item or quantity of specific item type to list
      * @param item The item that is looked for 
@@ -61,6 +79,10 @@ public class Sale {
      */
     public SaleDTO getSaleInfo(){
         return saleInfo;
+    }
+    
+    public void endSale(){
+        alertObserver();
     }
     
     /**

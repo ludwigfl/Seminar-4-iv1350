@@ -35,13 +35,13 @@ public class View {
         try{
         
         
-        contr.startSale();
+        contr.startSale(new TotalRevenueView(), new TotalRevenueFileOutput());
         System.out.println("A new sale has been started. \n");
        
-        scanItem(888, 2); //123 temp itemID, 2 temp number of item
+        scanItem(123, 1); //123 temp itemID, 2 temp number of item
         
         
-        scanItem(999, 5); //123 temp itemID, 2 temp number of item
+        scanItem(321, 3); //123 temp itemID, 2 temp number of item
         
         contr.requestDiscount(1); //1 temp customerId
         SaleDTO saleInfo = contr.endSale(payment);

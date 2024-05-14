@@ -13,6 +13,7 @@ import se.kth.iv1350.module4.integration.DiscountDatabase;
 import se.kth.iv1350.module4.integration.InventorySystem;
 import se.kth.iv1350.module4.integration.ItemNotFoundException;
 import se.kth.iv1350.module4.model.ReceiptPrinter;
+import se.kth.iv1350.module4.view.*;
 
 
 
@@ -37,7 +38,7 @@ public class SaleTest {
         disSys = new DiscountDatabase();
         acctSys = new AccountingSystem();
         controllerToTest = new Controller(invSys, disSys, acctSys);
-        controllerToTest.startSale();
+        controllerToTest.startSale(new TotalRevenueView(), new TotalRevenueFileOutput());
         itemToTest = new Item(123, 0.06, "Big oatmeal for the family", 59.99, "BigWheel Oatmeal", 50);
 
     }

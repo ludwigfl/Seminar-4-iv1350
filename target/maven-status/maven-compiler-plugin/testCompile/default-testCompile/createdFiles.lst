@@ -1,7 +1,1 @@
-se\kth\iv1350\module4\main\MainTest.class
-se\kth\iv1350\module4\model\ItemTest.class
-se\kth\iv1350\module4\integration\DatabaseNotCalledExceptionTest.class
-se\kth\iv1350\module4\model\ItemListTest.class
-se\kth\iv1350\module4\model\ReceiptPrinterTest.class
-se\kth\iv1350\module4\model\SaleTest.class
-se\kth\iv1350\module4\view\ViewTest.class
+se/kth/iv1350/module4/integration/ItemNotFoundExceptionTest.class

@@ -1,7 +1,8 @@
-C:\Users\zjaha\OneDrive\Documents\NetBeansProjects\Module4\src\test\java\se\kth\iv1350\module4\main\MainTest.java
-C:\Users\zjaha\OneDrive\Documents\NetBeansProjects\Module4\src\test\java\se\kth\iv1350\module4\model\ItemListTest.java
-C:\Users\zjaha\OneDrive\Documents\NetBeansProjects\Module4\src\test\java\se\kth\iv1350\module4\model\ReceiptPrinterTest.java
-C:\Users\zjaha\OneDrive\Documents\NetBeansProjects\Module4\src\test\java\se\kth\iv1350\module4\view\ViewTest.java
-C:\Users\zjaha\OneDrive\Documents\NetBeansProjects\Module4\src\test\java\se\kth\iv1350\module4\model\ItemTest.java
-C:\Users\zjaha\OneDrive\Documents\NetBeansProjects\Module4\src\test\java\se\kth\iv1350\module4\model\SaleTest.java
-C:\Users\zjaha\OneDrive\Documents\NetBeansProjects\Module4\src\test\java\se\kth\iv1350\module4\integration\DatabaseNotCalledExceptionTest.java
+/Users/ludwigflodin/Documents/GitHub/Seminar-4-iv1350/src/test/java/se/kth/iv1350/module4/integration/DatabaseNotCalledExceptionTest.java
+/Users/ludwigflodin/Documents/GitHub/Seminar-4-iv1350/src/test/java/se/kth/iv1350/module4/main/MainTest.java
+/Users/ludwigflodin/Documents/GitHub/Seminar-4-iv1350/src/test/java/se/kth/iv1350/module4/model/ItemTest.java
+/Users/ludwigflodin/Documents/GitHub/Seminar-4-iv1350/src/test/java/se/kth/iv1350/module4/model/ItemListTest.java
+/Users/ludwigflodin/Documents/GitHub/Seminar-4-iv1350/src/test/java/se/kth/iv1350/module4/model/ReceiptPrinterTest.java
+/Users/ludwigflodin/Documents/GitHub/Seminar-4-iv1350/src/test/java/se/kth/iv1350/module4/model/SaleTest.java
+/Users/ludwigflodin/Documents/GitHub/Seminar-4-iv1350/src/test/java/se/kth/iv1350/module4/view/ViewTest.java
+/Users/ludwigflodin/Documents/GitHub/Seminar-4-iv1350/src/test/java/se/kth/iv1350/module4/integration/ItemNotFoundExceptionTest.java

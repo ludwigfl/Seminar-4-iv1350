@@ -9,32 +9,34 @@ import static org.junit.jupiter.api.Assertions.*;
  *
  * @author ludwigflodin, antonhammar
  */
-public class DatabaseNotCalledExceptionTest {
-    private DatabaseNotCalledException dbException;
+public class ItemNotFoundExceptionTest {
+    private ItemNotFoundException itemException; 
+    
+    public ItemNotFoundExceptionTest() {
+        
+    }
     
     @BeforeEach
     public void setUp() {
-        
-        dbException = new DatabaseNotCalledException();
+        itemException = new ItemNotFoundException(888);
     }
     
     @AfterEach
     public void tearDown() {
-        dbException = null;
+        itemException = null;
     }
 
     @Test
     public void testPrintExceptionMsg() {
-        String expectedResult = "oopsie";
-        String result = dbException.printExceptionMsg();
+        String expectedResult = "Item with identifier: (" + 888 + ") not found";
+        String result = itemException.printExceptionMsg();
         assertTrue(result.contains(expectedResult), "Exception message is incorrect");
     }
 
     @Test
     public void testPrintAdminMsg() {
-        String expectedResult = "Database error";
-        String result = dbException.printAdminMsg();
+        String expectedResult = "Item error";
+        String result = itemException.printAdminMsg();
         assertTrue(result.contains(expectedResult), "Exception message is incorrect");
     }
-    
 }
