@@ -13,7 +13,7 @@
     <property name="user.country" value="SE"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/ludwigflodin/Documents/GitHub/Seminar-4-iv1350/target/surefire/surefirebooter-20240517102543536_3.jar /Users/ludwigflodin/Documents/GitHub/Seminar-4-iv1350/target/surefire 2024-05-17T10-25-43_478-jvmRun1 surefire-20240517102543536_1tmp surefire_0-20240517102543536_2tmp"/>
+    <property name="sun.java.command" value="/Users/ludwigflodin/Documents/GitHub/Seminar-4-iv1350/target/surefire/surefirebooter-20240517115253421_3.jar /Users/ludwigflodin/Documents/GitHub/Seminar-4-iv1350/target/surefire 2024-05-17T11-52-53_376-jvmRun1 surefire-20240517115253421_1tmp surefire_0-20240517115253421_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/ludwigflodin/Documents/GitHub/Seminar-4-iv1350/target/test-classes:/Users/ludwigflodin/Documents/GitHub/Seminar-4-iv1350/target/classes:/Users/ludwigflodin/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/ludwigflodin/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/ludwigflodin/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/ludwigflodin/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/ludwigflodin/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/Users/ludwigflodin/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/ludwigflodin/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/ludwigflodin/Documents/GitHub/Seminar-4-iv1350/target/surefire/surefirebooter-20240517102543536_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/ludwigflodin/Documents/GitHub/Seminar-4-iv1350/target/surefire/surefirebooter-20240517115253421_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>

@@ -25,6 +25,6 @@ public class TotalRevenueView implements Observer {
     public void updateSum(double sum){
         totalAmountPaid += sum;
         
-        System.out.println("Total amount of all sales: " + totalAmountPaid);
+        System.out.println("Total amount of sale: " + totalAmountPaid);
     }
 }
