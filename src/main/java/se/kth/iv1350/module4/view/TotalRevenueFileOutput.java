@@ -1,6 +1,8 @@
 package se.kth.iv1350.module4.view;
 
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.PrintWriter;
 import se.kth.iv1350.module4.model.Observer;
 
@@ -28,12 +30,11 @@ public class TotalRevenueFileOutput implements Observer{
     public void updateSum(double sum){
         this.sum = sum;
         try{
-            PrintWriter log = new PrintWriter(filePath);
-            log.println("Total amount of all sales: " + sum + "\n");
+            final FileWriter log = new FileWriter(filePath,true);
+            log.write("\nTotal amount of current sale: " + sum + "\n");
             log.close();
-        }catch(FileNotFoundException filException){
+        }catch(IOException ioException){
             System.err.println("Was unable to locate file in ->" + filePath);
-            filException.printStackTrace();
         }
     }
 }
