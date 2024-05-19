@@ -289,3 +289,18 @@ Database for the inventory system cannot be reached
 se.kth.iv1350.module4.integration.InventorySystem.getFakeItem(InventorySystem.java:40)
 End of log
 
+Item error - 2024-05-19T12:55:52.037908100
+Incorrect identifier used (888)
+se.kth.iv1350.module4.integration.InventorySystem.getFakeItem(InventorySystem.java:43)
+End of log
+
+Item error - 2024-05-19T12:57:03.948782500
+Incorrect identifier used (888)
+se.kth.iv1350.module4.integration.InventorySystem.getFakeItem(InventorySystem.java:43)
+End of log
+
+Item error - 2024-05-19T12:57:03.980189900
+Incorrect identifier used (888)
+se.kth.iv1350.module4.integration.InventorySystem.getFakeItem(InventorySystem.java:43)
+End of log
+

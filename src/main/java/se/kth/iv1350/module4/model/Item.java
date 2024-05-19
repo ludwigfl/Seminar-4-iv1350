@@ -109,21 +109,4 @@ public class Item {
      public void increaseQuantity(int amount){
          quantity = quantity + amount;
      }  
-     /**
-      * formats the item info to a string
-      * @return the string with the item info
-      */
-     @Override
-     public String toString(){
-         final DecimalFormat decfor = new DecimalFormat("0.00");
-         
-         return "Add " + quantity + " item(s) with item id " + ID + ":"
-         +"\nItem ID: " + ID 
-         +"\nItem name: " + name
-         +"\nItem cost: " + price + " SEK"
-         +"\nVat: " + VAT*100+ "%"
-         +"\nItem description: " + desc
-         +"\nTotal cost ( incl VAT ): " + decfor.format(price*quantity + price*VAT*quantity) + " SEK" 
-         +"\nTotal VAT: " + decfor.format(price*VAT*quantity) + " SEK\n";
-     }
 }

@@ -1,18 +1,18 @@
-C:\Users\zjaha\OneDrive\Documents\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\integration\DatabaseNotCalledException.java
-C:\Users\zjaha\OneDrive\Documents\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\view\View.java
-C:\Users\zjaha\OneDrive\Documents\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\view\TotalRevenueFileOutput.java
-C:\Users\zjaha\OneDrive\Documents\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\model\Item.java
-C:\Users\zjaha\OneDrive\Documents\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\view\TotalRevenueView.java
-C:\Users\zjaha\OneDrive\Documents\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\model\Observer.java
-C:\Users\zjaha\OneDrive\Documents\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\integration\InventorySystem.java
-C:\Users\zjaha\OneDrive\Documents\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\model\ReceiptPrinter.java
-C:\Users\zjaha\OneDrive\Documents\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\model\Sale.java
-C:\Users\zjaha\OneDrive\Documents\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\main\Main.java
-C:\Users\zjaha\OneDrive\Documents\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\model\ItemList.java
-C:\Users\zjaha\OneDrive\Documents\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\model\SaleDTO.java
-C:\Users\zjaha\OneDrive\Documents\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\model\Receipt.java
-C:\Users\zjaha\OneDrive\Documents\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\integration\ItemNotFoundException.java
-C:\Users\zjaha\OneDrive\Documents\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\controller\Controller.java
-C:\Users\zjaha\OneDrive\Documents\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\integration\DiscountDatabase.java
-C:\Users\zjaha\OneDrive\Documents\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\integration\AccountingSystem.java
-C:\Users\zjaha\OneDrive\Documents\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\integration\Discount.java
+C:\Users\Ludwig\OneDrive - KTH\Dokument\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\integration\DatabaseNotCalledException.java
+C:\Users\Ludwig\OneDrive - KTH\Dokument\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\view\TotalRevenueView.java
+C:\Users\Ludwig\OneDrive - KTH\Dokument\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\view\View.java
+C:\Users\Ludwig\OneDrive - KTH\Dokument\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\integration\ItemNotFoundException.java
+C:\Users\Ludwig\OneDrive - KTH\Dokument\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\integration\Discount.java
+C:\Users\Ludwig\OneDrive - KTH\Dokument\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\model\Item.java
+C:\Users\Ludwig\OneDrive - KTH\Dokument\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\model\ItemList.java
+C:\Users\Ludwig\OneDrive - KTH\Dokument\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\model\Sale.java
+C:\Users\Ludwig\OneDrive - KTH\Dokument\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\model\SaleDTO.java
+C:\Users\Ludwig\OneDrive - KTH\Dokument\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\model\Receipt.java
+C:\Users\Ludwig\OneDrive - KTH\Dokument\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\integration\AccountingSystem.java
+C:\Users\Ludwig\OneDrive - KTH\Dokument\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\integration\InventorySystem.java
+C:\Users\Ludwig\OneDrive - KTH\Dokument\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\integration\DiscountDatabase.java
+C:\Users\Ludwig\OneDrive - KTH\Dokument\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\main\Main.java
+C:\Users\Ludwig\OneDrive - KTH\Dokument\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\model\ReceiptPrinter.java
+C:\Users\Ludwig\OneDrive - KTH\Dokument\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\view\TotalRevenueFileOutput.java
+C:\Users\Ludwig\OneDrive - KTH\Dokument\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\model\Observer.java
+C:\Users\Ludwig\OneDrive - KTH\Dokument\GitHub\Seminar-4-iv1350\src\main\java\se\kth\iv1350\module4\controller\Controller.java
