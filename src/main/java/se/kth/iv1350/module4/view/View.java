@@ -70,7 +70,7 @@ public class View {
         contr.startSale(new TotalRevenueView(), new TotalRevenueFileOutput());
         System.out.println("A new sale has been started. \n");
        
-        scanItem(888, 1); //123 temp itemID, 2 temp number of item
+        scanItem(123, 1); //123 temp itemID, 2 temp number of item
         
         
         scanItem(321, 3); //123 temp itemID, 2 temp number of item

@@ -13,13 +13,13 @@ import se.kth.iv1350.module4.model.Observer;
 public class TotalRevenueFileOutput implements Observer{
         
         String filePath = "";
-        double sum;
+        double totalAmountPaid;
         
         /**
          * the constructor for initializing the TotalRevenueFileOutput and attributes
          */
         public TotalRevenueFileOutput(){
-        sum = 0;
+        totalAmountPaid = 0;
         filePath = "src/main/java/se/kth/iv1350/module4/integration/TotalRevenueOfSales.txt";  
     }
         /**
@@ -28,7 +28,7 @@ public class TotalRevenueFileOutput implements Observer{
          */
     @Override
     public void updateSum(double sum){
-        this.sum = sum;
+        totalAmountPaid += sum;
         try{
             final FileWriter log = new FileWriter(filePath,true);
             log.write("\nTotal amount of current sale: " + sum + "\n");
